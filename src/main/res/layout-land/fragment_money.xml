@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:background="#fcf4bb"
+    android:orientation="vertical">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/spend_type_label"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/spend_type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fcf4bb"
+        android:hint="@string/spend_type_hint"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#fcf4bb"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/spend_cost"
+            android:layout_width="188dp"
+            android:layout_height="match_parent"
+            android:background="#fcf4bb"
+            android:hint="@string/spend_cost" />
+
+        <EditText
+            android:id="@+id/spend_detail"
+            android:layout_width="368dp"
+            android:layout_height="match_parent"
+            android:hint="花费细节" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="221dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:background="#fcf4bb">
+
+        <EditText
+            android:id="@+id/spend_time"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="#fcf4bb"
+            android:hint="时间" />
+
+        <Button
+            android:id="@+id/date_show1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@mipmap/ic_time_c"
+            android:elevation="0dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/address_view"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="地址"
+        android:textAlignment="center"/>
+
+</LinearLayout>

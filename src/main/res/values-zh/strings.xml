@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">轻松账本</string>
+    <string name="spend_type_hint">输入花费项目</string>
+    <string name="spend_type_label">记一笔</string>
+    <string name="spend_cost">输入钱数</string>
+    <string name="date_show">产生时间</string>
+    <string name="data_picker_title">花钱时间:</string>
+    <string name="new_spend">记一笔</string>
+    <string name="show_subtitle">显示花费总数</string>
+    <string name="hide_subtitle">隐藏总数</string>
+    <string name="subtitle_formate">%1$d 项花费</string>
+</resources>
